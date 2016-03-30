@@ -1,4 +1,4 @@
-baseurl: "/jekyll_warehouse/"
+#baseurl: "/jekyll_warehouse/"
 
 safe: false
 permalink: /posts/:title.html
@@ -7,7 +7,7 @@ exclude:
   - README.md
 
 name: 符海飞的软件仓库（Jekyll版）
-host: #www.fuhaifei.xyz/jekyll_warehouse
+host: www.fuhaifei.xyz/jekyll_warehouse
 desc: 这是符海飞的软件仓库，用来存放常用IT软件，尤其是JAVA方面的居多，大家自取！最好每一个取的人在最下面给我留个言，给我更大的动力去丰富这个仓库~~~
 
 custom:
