@@ -1,6 +1,8 @@
+baseurl: "/jekyll_warehouse/"
+
 safe: false
 permalink: /posts/:title.html
-baseurl: "/jekyll_warehouse/"
+
 exclude:
   - README.md
 
