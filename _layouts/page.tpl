@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>{{ site.name }}{% if page.title %} / {{ page.title }}{% endif %}</title>
 <link href="http://{{ site.host }}/feed.xml" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
-<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
-<link rel="stylesheet" type="text/css" href="/assets/css/site.css" />
-<link rel="stylesheet" type="text/css" href="/assets/css/code/github.css" />
-{% for style in page.styles %}<link rel="stylesheet" type="text/css" href="{{ style }}" />
+<link rel="stylesheet" type="text/css" href={{"/assets/css/font-awesome.css"| prepend: site.baseurl }} />
+<link rel="stylesheet" type="text/css" href={{"/assets/css/site.css"| prepend: site.baseurl }} />
+<link rel="stylesheet" type="text/css" href={{"/assets/css/code/github.css"| prepend: site.baseurl }} />
+{% for style in page.styles %}<link rel="stylesheet" type="text/css" href={{"style"| prepend: site.baseurl }} />
 {% endfor %}
 </head>
 
@@ -25,16 +25,16 @@
 </div>
 
 <aside>
-	<h2><a href="/">{{ site.name }}</a></h2>
+	<h2><a href={{"/"| prepend: site.baseurl }}>{{ site.name }}</a></h2>
 	
 	<nav class="block">
 		<ul>
-		{% for category in site.custom.categories %}<li class="{{ category.name }}"><a href="/category/{{ category.name }}/">{{ category.title }}</a></li>
+		{% for category in site.custom.categories %}<li class="{{ category.name }}"><a href={{"/category"| prepend: site.baseurl }}/{{ category.name }}/>{{ category.title }}</a></li>
 		{% endfor %}
 		</ul>
 	</nav>
 	
-	<form action="/search/" class="block block-search">
+	<form action={{"/search/"| prepend: site.baseurl }} class="block block-search">
 		<h3>Search</h3>
 		<p><input type="search" name="q" placeholder="Search in warehouse" /></p>
 	</form>
@@ -50,7 +50,7 @@
 		
 	{% if site.meta.author.github %}
 	<div class="block block-fork">
-		<a href="https://github.com/{{ site.meta.author.github }}" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/fork.png" alt="Fork me on GitHub"></a>
+		<a href="https://github.com/{{ site.meta.author.github }}" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src={{"/images/fork.png"| prepend: site.baseurl }} alt="Fork me on GitHub"></a>
 	</div>
 	{% endif %}
 	
@@ -67,18 +67,18 @@
 			<a href="https://github.com/mytharcher/SimpleGray" target="_blank">SimpleGray</a>
 		</p>
 	</div>-->
-</aside>
+
 
 <div class="post-area post comment">
     <!-- 多说评论框 start -->
     <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="www.fuhaifei.xyz{{ page.url }}"></div>
     <!-- 多说评论框 end -->
 </div>
+</aside>
+<script src={{"/assets/js/elf-0.5.0.min.js"| prepend: site.baseurl }}></script>
+<script src={{"/assets/js/highlight.min.js"| prepend: site.baseurl }}></script>
 
-<script src="/assets/js/elf-0.5.0.min.js"></script>
-<script src="/assets/js/highlight.min.js"></script>
-
-<script src="/assets/js/site.js"></script>
+<script src={{"/assets/js/site.js"| prepend: site.baseurl }}></script>
 {% for script in page.scripts %}<script src="{{ script }}"></script>
 {% endfor %}
 <script>
