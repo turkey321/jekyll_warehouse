@@ -68,12 +68,18 @@
 		</p>
 	</div>-->
 
-
-<div class="post-area post comment">
-    <!-- 多说评论框 start -->
-    <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="www.fuhaifei.xyz{{ page.url }}"></div>
-    <!-- 多说评论框 end -->
-</div>
+ <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"fuhaifei"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+<!-- 多说公共JS代码 end -->
 </aside>
 <script src={{"/assets/js/elf-0.5.0.min.js"| prepend: site.baseurl }}></script>
 <script src={{"/assets/js/highlight.min.js"| prepend: site.baseurl }}></script>
