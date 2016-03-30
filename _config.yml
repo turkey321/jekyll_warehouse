@@ -1,27 +1,32 @@
-# Site settings
-title: NPM
-email: 15751158939@163.com
-description: NPM团队网站 前端爱好者
-# > # this means to ignore newlines until "baseurl:"
-#   Write an awesome description for your new site here. You can edit this
-#   line in _config.yml. It will appear in your document head meta (for
-#   Google search results) and in your feed.xml site description.
+safe: false
+permalink: /posts/:title.html
+exclude:
+  - README.md
 
-# baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-github_username:  turkey321
-permalink: /:year/:month/:day/:title/
+name: 符海飞的软件仓库（Jekyll版）
+host: #www.fuhaifei.xyz/jekyll_warehouse
+desc: 这是符海飞的软件仓库，用来存放常用IT软件，尤其是JAVA方面的居多，大家自取！最好每一个取的人在最下面给我留个言，给我更大的动力去丰富这个仓库~~~
 
-# Build settings
-markdown: kramdown
+custom:
+    category:
+        a: 专业软件
+        b: 日常软件
+    categories:
+      - name:  a
+        title: 专业软件
 
-gems: [jekyll-paginate]
-paginate: 9
-paginate_path: "page:num"
+      - name:  b
+        title: 日常软件
 
-# highlight
-# 本地用rouge, github上用pygments
-#highlighter: pygments
-#highlighter: rouge
-# highlighter: false
+    scrollingLoadCount: 2                          # 滚屏自动加载文章数量，“0”为关闭
+
+meta:
+    author:
+        name: 符海飞
+        email: my@fuhaifei.xyz
+        gcse: 013302542177053906402:2z8geqn8gr4     # Google自定义搜索标识ID
+        github: turkey321                           # GitHub账号
+        gravatar: 5da50ad91133a0899f45429651a58666  # Gravatar头像标识
+
+    gapi: http://www.google.com/jsapi               # Google API地址
+    gravatar: http://en.gravatar.com/avatar/        # Gravatar头像服务器地址
