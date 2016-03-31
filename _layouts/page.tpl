@@ -40,12 +40,8 @@
 	</form>
 	
 	<div class="block block-about">
-		<h3>About</h3>
-		<figure>
-			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
-			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
-		</figure>
-		<p>I am the best!</p>
+		<h2>给我的捐助</h3>
+		<img style="border: 0;" src={{"/images/zfb.png"| prepend: site.baseurl }} alt="给我捐助">
 	</div>
 		
 	{% if site.meta.author.github %}
