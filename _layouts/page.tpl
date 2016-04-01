@@ -20,7 +20,10 @@
 	{{ content }}
 
 	<footer>
-		<p style="text-align: center;">&copy; 符海飞  <a href="http://www.fuhaifei.xyz" target="_blank">www.fuhaifei.xyz</a> Since April 2016</p>
+		<p style="text-align: center;"><a href="http://www.easycounter.com/">
+			<img src="http://www.easycounter.com/counter.php?turkey321"border="0" alt="HTML Hit Counters">
+		</a> </p>
+		<p style="text-align: center;">&copy; 符海飞 <a href="http://www.fuhaifei.xyz" target="_blank">www.fuhaifei.xyz</a> Since April 2016</p>
 	</footer>
 </div>
 
