@@ -1,4 +1,4 @@
-baseurl: "/jekyll_warehouse/"
+baseurl: "/jekyll_warehouse"
 safe: false
 permalink: /posts/:title.html
 
@@ -13,12 +13,16 @@ custom:
     category:
         a: 专业软件
         b: 日常软件
+        c: 电脑装机
     categories:
       - name:  a
         title: 专业软件
 
       - name:  b
         title: 日常软件
+
+      - name:  c
+        title: 电脑装机
 
     scrollingLoadCount: 2                          # 滚屏自动加载文章数量，“0”为关闭
 

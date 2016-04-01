@@ -20,7 +20,7 @@
 	{{ content }}
 
 	<footer>
-		<p>&copy; 符海飞 Since 2016</p>
+		<p style="text-align: center;">&copy; 符海飞  <a href="http://www.fuhaifei.xyz" target="_blank">www.fuhaifei.xyz</a> Since April 2016</p>
 	</footer>
 </div>
 
@@ -29,7 +29,8 @@
 	
 	<nav class="block">
 		<ul>
-		{% for category in site.custom.categories %}<li class="{{ category.name }}"><a href={{"/category"| prepend: site.baseurl }}/{{ category.name }}/>{{ category.title }}</a></li>
+		{% for category in site.custom.categories %}
+		<li class="{{ category.name }}"><a href={{"/category"| prepend: site.baseurl }}/{{ category.name }}/>{{ category.title }}</a></li>
 		{% endfor %}
 		</ul>
 	</nav>
@@ -50,20 +51,6 @@
 	</div>
 	{% endif %}
 	
-	<!--<div class="block block-thank">
-		<h3>Powered by</h3>
-		<p>
-			<a href="http://disqus.com/" target="_blank">Disqus</a>,
-			<a href="http://elfjs.com/" target="_blank">elf+js</a>,
-			<a href="https://github.com/" target="_blank">GitHub</a>,
-			<a href="http://www.google.com/cse/" target="_blank">Google Custom Search</a>,
-			<a href="http://en.gravatar.com/" target="_blank">Gravatar</a>,
-			<a href="http://softwaremaniacs.org/soft/highlight/en/">HighlightJS</a>,
-			<a href="https://github.com/mojombo/jekyll" target="_blank">jekyll</a>,
-			<a href="https://github.com/mytharcher/SimpleGray" target="_blank">SimpleGray</a>
-		</p>
-	</div>-->
-
  <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
   <script type="text/javascript">
     var duoshuoQuery = {short_name:"fuhaifei"};
