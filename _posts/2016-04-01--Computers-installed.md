@@ -89,7 +89,7 @@ category: c
 
 ---------------
 	
-<pre id="prexx1">持续更新中~~ (催更请留言)____留言在下面,如果没有留言板请<a href="/jekyll_warehouse/posts/-Computers-installed.html">点我</a></pre>
+<pre id="prexx1">持续更新中~~ (催更请留言)____留言在下面,如果没有留言板请<a href="/jekyll_warehouse/posts/Computers-installed.html">点我</a></pre>
 
 
 [http://pan.baidu.com/s/1pKYfhm7]:http://pan.baidu.com/s/1pKYfhm7

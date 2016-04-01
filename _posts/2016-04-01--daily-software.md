@@ -63,7 +63,7 @@ category: b
 
 -----------
 	
-<pre id="prexx1">持续更新中~~ (催更请留言)____留言在下面,如果没有留言板请<a href="/jekyll_warehouse/posts/-daily-software.html">点我</a></pre>
+<pre id="prexx1">持续更新中~~ (催更请留言)____留言在下面,如果没有留言板请<a href="/jekyll_warehouse/posts/daily-software.html">点我</a></pre>
 
 
 [360免费wifi_5.3.0.3010]:http://7xrtds.com1.z0.glb.clouddn.com/WJ%2F360%E5%85%8D%E8%B4%B9wifi_5.3.0.3010.exe
