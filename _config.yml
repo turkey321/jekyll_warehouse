@@ -5,15 +5,22 @@ permalink: /posts/:title.html
 exclude:
   - README.md
 
-name: 符海飞的软件仓库（Jekyll版）
+name: 符海飞的资源仓库（Jekyll版）
 #host:
-desc: 这是符海飞的软件仓库，用来存放常用IT软件，尤其是JAVA方面的居多，大家自取！最好每一个取的人在最下面给我留个言，给我更大的动力去丰富这个仓库~~~
+desc: 这是符海飞的资源仓库，用来存放常用IT软件，学习资料等，大家自取！感觉不错的话,记得给我留言哦 ~ ~ ~
 
 custom:
     category:
         a: 专业软件
         b: 日常软件
-        c: 电脑装机
+        c: 电脑装机资源
+        d: 电脑技术知识
+        e: 学习资料
+        f: 教学视频(及对应资料)
+        g: 模板资源
+        h: 游戏资源
+        i: 视频资源
+        j: 其他资源
     categories:
       - name:  a
         title: 专业软件
@@ -22,7 +29,29 @@ custom:
         title: 日常软件
 
       - name:  c
-        title: 电脑装机
+        title: 电脑装机资源
+
+      - name:  d
+        title: 电脑技术知识
+
+      - name:  e
+        title: 学习资料
+
+      - name:  f
+        title: 教学视频(及对应资料)
+
+      - name:  g
+        title: 模板资源
+
+      - name:  h
+        title: 游戏资源
+
+      - name:  i
+        title: 视频资源
+
+      - name:  j
+        title: 其他资源
+
 
     scrollingLoadCount: 2                          # 滚屏自动加载文章数量，“0”为关闭
 
