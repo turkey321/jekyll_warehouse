@@ -124,3 +124,15 @@ elf(function () {
 		initer && elf(initer);
 	});
 });
+
+function showdiv(targetid,objN){
+      var target=document.getElementById(targetid);
+      var clicktext=document.getElementById(objN)
+            if (target.style.display=="block"){
+                target.style.display="none";
+                clicktext.innerText="点击查看所有慕课网视频列表";
+            } else {
+                target.style.display="block";
+                clicktext.innerText='关闭所有慕课网视频列表';
+            }
+}

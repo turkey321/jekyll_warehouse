@@ -4,7 +4,7 @@ title: 专业软件
 category: a
 ---
 
-专业软件资源库 (直接点击或者右击复制链接都可以)：
+## 专业软件资源库 (直接点击或者右击复制链接都可以)：
 
 ----
 	
@@ -356,6 +356,12 @@ category: a
 * 聚生网管
 
 	[聚生网管]
+	
+----
+	
+* 帆软
+
+	[FineReport8.0]
 
 ---------------
 	
@@ -491,3 +497,5 @@ category: a
 [apache-maven-3.3.9]:http://7xrtds.com1.z0.glb.clouddn.com/apache-maven-3.3.9-bin.zip
 
 [http://pan.baidu.com/s/1hsfeYKs]:http://pan.baidu.com/s/1hsfeYKs
+
+[FineReport8.0]:http://7xrtds.com1.z0.glb.clouddn.com/ZYRJ3%2FFineReport8.0-CN.exe
